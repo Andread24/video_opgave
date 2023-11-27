@@ -138,10 +138,32 @@ p {
 .layoutdiagram {
   display: grid;
   place-items: center;
+  margin-bottom: 40px;
 }
 
 .layout_img {
   max-width: 400px;
+}
+
+.credits {
+  display: grid;
+  place-items: center;
+  margin-bottom: 40px;
+  border: 3px solid rgb(219, 219, 219);
+  padding: 20px;
+}
+
+.credits h3,
+h4 {
+  color: rgb(219, 219, 219);
+}
+
+.credits p,
+h4 {
+  font-family: "niveau-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(219, 219, 219);
 }
 
 @media screen and (max-width: 800px) {
